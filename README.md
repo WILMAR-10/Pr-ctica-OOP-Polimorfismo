@@ -35,4 +35,8 @@ Esta es una aplicación desarrollada en **C# Windows Forms** como parte de la pr
    git clone https://github.com/WILMAR-10/Pr-ctica-OOP-Polimorfismo.git
 
 ## screenshots
+![image](https://github.com/user-attachments/assets/748a7fd9-0fad-4d26-9f38-95c5e978deff)![image](https://github.com/user-attachments/assets/25e395ec-7a92-4823-9c1e-1001384086d1) 
+![image](https://github.com/user-attachments/assets/33829786-a08a-41c9-8f31-2e816da91e45)
+
+
 
