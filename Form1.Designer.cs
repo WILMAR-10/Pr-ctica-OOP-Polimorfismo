@@ -218,6 +218,7 @@
             this.buttonCalcular.Size = new System.Drawing.Size(530, 36);
             this.buttonCalcular.TabIndex = 18;
             this.buttonCalcular.Text = "Calcular";
+            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
             // 
             // comboBoxTipoEmpleado
             // 

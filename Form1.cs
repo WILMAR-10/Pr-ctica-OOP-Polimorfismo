@@ -26,7 +26,7 @@ namespace PrácticaOOPPolimorfismo
             comboBoxTipoEmpleado.Items.Add("Docente por hora");
             comboBoxTipoEmpleado.Items.Add("Docente contrato fijo");
             comboBoxTipoEmpleado.Items.Add("Empleado administrativo");
-            comboBoxTipoEmpleado.SelectedIndex = -1;
+            comboBoxTipoEmpleado.SelectedIndex = -1; // Ninguna selección inicial
         }
 
         private void InicializarDataGridView()
@@ -46,12 +46,27 @@ namespace PrácticaOOPPolimorfismo
             dataGridViewResultados.Columns[2].HeaderCell.Style.ForeColor = Color.Black;
 
             dataGridViewResultados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewResultados.AllowUserToAddRows = false; // Desactivar fila adicional
         }
 
         private void buttonCalcular_Click(object sender, EventArgs e)
         {
             try
             {
+                // Validar selección en el ComboBox
+                if (comboBoxTipoEmpleado.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Por favor, selecciona un tipo de empleado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Validar que se haya ingresado un nombre
+                if (string.IsNullOrWhiteSpace(textBoxNombre.Text))
+                {
+                    MessageBox.Show("Por favor, ingresa un nombre.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 string nombre = textBoxNombre.Text;
                 decimal salarioBase = nudSalarioBase.Value;
                 int horasTrabajadas = (int)nudHorasTrabajadas.Value;
@@ -60,6 +75,7 @@ namespace PrácticaOOPPolimorfismo
 
                 Empleado empleado = null;
 
+                // Crear instancia del tipo de empleado
                 switch (tipoEmpleado)
                 {
                     case "Docente por hora":

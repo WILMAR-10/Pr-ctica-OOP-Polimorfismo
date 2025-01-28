@@ -52,10 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DocenteContratoFijo.cs" />
-    <Compile Include="DocentePorHora.cs" />
-    <Compile Include="Empleado.cs" />
-    <Compile Include="EmpleadoAdministrativo.cs" />
+    <Compile Include="Class\DocenteContratoFijo.cs" />
+    <Compile Include="Class\DocentePorHora.cs" />
+    <Compile Include="Class\Empleado.cs" />
+    <Compile Include="Class\EmpleadoAdministrativo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
