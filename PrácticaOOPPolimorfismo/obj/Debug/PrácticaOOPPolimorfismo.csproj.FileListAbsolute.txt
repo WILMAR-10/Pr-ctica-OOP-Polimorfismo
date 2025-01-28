@@ -1,0 +1,12 @@
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.csproj.GenerateResource.cache
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.Form1.resources
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.Properties.Resources.resources
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\bin\Debug\PrácticaOOPPolimorfismo.exe.config
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\bin\Debug\PrácticaOOPPolimorfismo.exe
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\bin\Debug\PrácticaOOPPolimorfismo.pdb
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\bin\Debug\Guna.UI2.dll
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\Pr_ctica.7C40B18D.Up2Date
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.exe
+C:\Users\wilma\source\repos\PrácticaOOPPolimorfismo\obj\Debug\PrácticaOOPPolimorfismo.pdb
